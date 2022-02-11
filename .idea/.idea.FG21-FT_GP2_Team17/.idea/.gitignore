@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/contentModel.xml
+/modules.xml
+/.idea.FG21-FT_GP2_Team17.iml
+# Datasource local storage ignored files
+/../../../../../../../../../:\Users\sewen\Perforce\Phmi_G2P2_Team17\FG21-FT_GP2_Team17\.idea\.idea.FG21-FT_GP2_Team17\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

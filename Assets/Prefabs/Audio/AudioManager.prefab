@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1006854039383359794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3591666977307332227}
+  - component: {fileID: 6366039374926571645}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3591666977307332227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006854039383359794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.76031, y: 15.423643, z: 19.22556}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6366039374926571645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006854039383359794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30b4047ff27d55342a56c0f331d57e82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BackgroundMusic
+    clip: {fileID: 8300000, guid: d7f535147145bda43afefc2ec682c46e, type: 3}
+    type: 1
+    volume: 0.15
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    accumulation: 0
+  - name: Door Close
+    clip: {fileID: 8300000, guid: a82a2816605e10348a91555b1c62c531, type: 3}
+    type: 2
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    accumulation: 0
+  - name: Door Open
+    clip: {fileID: 8300000, guid: adbc6aca50156d4409970cf73972dfab, type: 3}
+    type: 2
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    accumulation: 0
+  - name: O2 Pullback
+    clip: {fileID: 8300000, guid: e5505a8cb69e443429775e6352bbba2a, type: 3}
+    type: 2
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    accumulation: 0
+  - name: O2 Stop
+    clip: {fileID: 8300000, guid: 1e875f4557148f14cbbd8d0c9a8d2077, type: 3}
+    type: 2
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    accumulation: 0
+  - name: PlayerWalking
+    clip: {fileID: 8300000, guid: c9f0b20682d3bb3419079a1e0f2f9da8, type: 3}
+    type: 2
+    volume: 0.67
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    accumulation: 0
+  - name: Turbine
+    clip: {fileID: 8300000, guid: 491c2b84e3b30b84ea2d7a3e37d1aac2, type: 3}
+    type: 2
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    accumulation: 0
+  - name: Glitchy Doors Close
+    clip: {fileID: 8300000, guid: 2c3fa5a834ba6f84ab051e7661dcc5e1, type: 3}
+    type: 2
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    accumulation: 0
+  - name: Glitchy Doors Open
+    clip: {fileID: 8300000, guid: bb44a5d07da20664181322847c9d1aa5, type: 3}
+    type: 2
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    accumulation: 0
+  - name: eel
+    clip: {fileID: 8300000, guid: cafff15559bd55d41a13a3f270e8c95b, type: 3}
+    type: 2
+    volume: 0.68
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    accumulation: 0
+  - name: Eel Connected
+    clip: {fileID: 8300000, guid: 8b7b47703f2640e47a1d23fc902a051d, type: 3}
+    type: 2
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    accumulation: 0
+  - name: Lever up
+    clip: {fileID: 8300000, guid: 11a7754a477733e4f94325af120f0530, type: 3}
+    type: 2
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    accumulation: 0
+  - name: Lever down
+    clip: {fileID: 8300000, guid: ec080715423e7064f8ce18b1246ce0f6, type: 3}
+    type: 2
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    accumulation: 0
+  - name: o2 Dissconecting
+    clip: {fileID: 8300000, guid: ab830c52cb7daf8499ceee610ac368fa, type: 3}
+    type: 2
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    accumulation: 0
+  - name: Timer
+    clip: {fileID: 8300000, guid: fa4e282157698974f979c0d34ed3a77c, type: 3}
+    type: 2
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    accumulation: 0
+  - name: fail
+    clip: {fileID: 8300000, guid: 3baf3611ce7687d488e60e183f4a8cba, type: 3}
+    type: 2
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    accumulation: 0
+  - name: LevelCompleted
+    clip: {fileID: 8300000, guid: a13b652f2a074834881ebb3a39ef19eb, type: 3}
+    type: 2
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    accumulation: 0
+  - name: ColorCodeCompleted
+    clip: {fileID: 8300000, guid: b18cd0d8a6a44b64e9994d58bd95d39b, type: 3}
+    type: 2
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    accumulation: 0
+  - name: GlitchStop
+    clip: {fileID: 8300000, guid: e82d2bba5b4f66f4ca3589fda0e47c6b, type: 3}
+    type: 2
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    accumulation: 0
